@@ -52,3 +52,21 @@ cd ../../../../
 
 $ docker pull ncbi/sra-tools
 
+
+OR
+
+
+$ mkdir reads
+$ cd reads
+
+# after running following command, you will get a file with .sra command
+$ prefetch SRR27482193 
+
+# convert .sra to .fastq
+$ cd SRR27482193
+$ fasterq-dump -v SRR27482193.sra
+
+# See the new contents of the directory
+$ ls
+# you can move back to your working directory if you following along
+$ cd ../../
