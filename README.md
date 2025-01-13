@@ -47,5 +47,8 @@ cp GCF_000002985.6_WBcel235_genomic.fna ../../../
 cd ../../../../
 
 
-**2. STEP**
+**2. STEP: SRA-Toolkit**
+
+
+$ docker pull ncbi/sra-tools
 
